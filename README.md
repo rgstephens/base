@@ -24,4 +24,6 @@ This extension to [Meteor Base](http://themeteorchef.com/base) enhances the exis
 meteor npm install griddle-react --save
 ```
 
+Here's a screenshot with the new list view:
+
 ![ListView Image](https://github.com/rgstephens/base/blob/listView/screenshots/ListView.png)

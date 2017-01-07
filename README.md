@@ -15,3 +15,15 @@ A starting point for Meteor apps.
 </table>
 
 [Read the Documentation](http://themeteorchef.com/base)
+
+# Charts
+
+This extension to [Meteor Base](http://themeteorchef.com/base) adds charts using [Highcharts](http://www.highcharts.com/) and the npm [react-highcharts](https://github.com/kirjs/react-highcharts) package.
+
+```
+meteor npm install react-highcharts --save
+```
+
+## Screenshot
+
+![Chart Image](https://github.com/rgstephens/base/blob/chart/screenshots/Charts.png)

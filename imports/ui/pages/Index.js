@@ -1,5 +1,7 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
+import ChartByLetter from '../containers/ChartByLetter';
+import ChartByBody from '../containers/ChartByBody';
 
 const Index = () => (
   <div className="Index">
@@ -9,6 +11,12 @@ const Index = () => (
       <p><a className="btn btn-success" href="https://themeteorchef.com/base" role="button">Read the Documentation</a></p>
       <p style={ { fontSize: '16px', color: '#aaa' } }>Currently at v4.10.0</p>
     </Jumbotron>
+    <div className="col-xs-6">
+        <ChartByBody/>
+    </div>
+    <div className="col-xs-6">
+        <ChartByLetter/>
+    </div>
   </div>
 );
 

@@ -34,8 +34,8 @@ var actionButtons = React.createClass({
 const columnList = ['title','body','actions'];
 const columnMetadata = [
   {columnName: 'title', order: "1", displayName: 'Title', cssClassName: 'col-xs-2' },
-  {columnName: 'body', order: "2", displayName: 'Body', cssClassName: 'col-xs-8' },
-  {columnName: 'actions', order: "3", customComponent: actionButtons, sortable: false, cssClassName: 'col-xs-2',
+  {columnName: 'body', order: "2", displayName: 'Body', cssClassName: 'col-xs-7' },
+  {columnName: 'actions', order: "3", customComponent: actionButtons, sortable: false, cssClassName: 'col-xs-3',
     displayName: 'Actions'}
 ];
 
